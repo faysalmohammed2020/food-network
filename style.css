@@ -7,7 +7,7 @@ body {
 /*main menu style start*/
 .main-menu {
     display: flex;
-    background:tomato;
+    background: tomato;
     margin-bottom: 100px;
 }
 
@@ -37,6 +37,7 @@ body {
     margin: 22px 0px 0px 23px;
     border: 1px solid white;
 }
+
 /*main menu style start*/
 /*Top section style Start (Some Style Are Applying in many section as a common style )*/
 h1 {
