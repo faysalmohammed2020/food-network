@@ -37,6 +37,17 @@ body {
     margin: 22px 0px 0px 23px;
     border: 1px solid white;
 }
+.nav-menu ul li a:hover {
+    text-decoration: none;
+    display: block;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: 22px 0px 0px 23px;
+    border: 1px solid orangered;
+    background: orangered;
+}
 
 /*main menu style start*/
 /*Top section style Start (Some Style Are Applying in many section as a common style )*/
