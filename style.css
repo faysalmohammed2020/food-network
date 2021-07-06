@@ -4,6 +4,40 @@ body {
 
 }
 
+/*main menu style start*/
+.main-menu {
+    display: flex;
+    background:tomato;
+    margin-bottom: 100px;
+}
+
+.nav-menu img {
+    width: 20%;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.nav-menu {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.nav-menu ul li {
+    display: block;
+    float: left;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: 22px 0px 0px 23px;
+    border: 1px solid white;
+}
+/*main menu style start*/
 /*Top section style Start (Some Style Are Applying in many section as a common style )*/
 h1 {
     font-size: 58px;
@@ -18,7 +52,7 @@ h1 {
     color: #FB9049;
 }
 
-.flexible-content{
+.flexible-content {
     display: flex;
 }
 
@@ -72,7 +106,7 @@ h1 {
 h2 {
     color: #767574;
     font-size: 40px;
-    
+
 }
 
 #about-section-p {
@@ -84,79 +118,137 @@ h2 {
 
 .about-section-img img {
     width: 65%;
-    margin-bottom: -20px;
+    margin-bottom: -16px;
 }
+
 /*About Section Style Complete*/
 /*My recipe Section Style*/
-.my-recipies{
+.my-recipies {
     margin-bottom: 0px;
 }
-#my-recipies-h2{
+
+#my-recipies-h2 {
     color: gray;
     text-align: center;
     font-size: 40px;
 }
-#my-recipies-p{
+
+#my-recipies-p {
     color: gray;
     text-align: center;
     font-size: 15px;
     line-height: 5px;
 }
-.my-recipies-card{
+
+.my-recipies-card {
     display: flex;
     margin-bottom: 150px;
 }
-.card-width{
+
+.card-width {
     width: 30%;
     box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.986);
     margin: 75px;
     padding: 30px;
     border-radius: 40px;
 }
-.card-width:hover{
+
+.card-width:hover {
     width: 30%;
     box-shadow: 20px 20px 60px rgba(245, 149, 5, 0.986);
     margin: 75px;
     padding: 30px;
 }
-.card-width img{
-   width: 100%;
+
+.card-width img {
+    width: 100%;
 }
-.my-recipie-card-h2{
+
+.my-recipie-card-h2 {
     font-size: 40px;
 }
-.my-recipie-card-p{
+
+.my-recipie-card-p {
     font-size: 12px;
 }
+
 /*My Recipe Section Complete*/
 /*Count section style*/
 
-.count-inline{
+.count-inline {
     width: 14%;
     display: inline-block;
     padding-left: 220px;
-    
+
 }
-.count-section{
+
+.count-section {
     box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.288);
     border-radius: 20px;
     margin: 22px 44px 150px 44px;
     padding: 50px 0px;
     background-color: whitesmoke;
 }
-.count-section:hover{
+
+.count-section:hover {
     box-shadow: 10px 10px 50px rgba(214, 145, 17, 0.616)
 }
+
 /*Count Section style completed*/
+/*Subscription Section style start*/
+.subscription-section {
+    background-image: url(images/Frame\ 58.jpg);
+    margin: 50px;
+    padding: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: tomato;
+}
+
+.inputs {
+    text-align: center;
+}
+
+#subscription-section-p {
+    text-align: center;
+    font-size: 15px;
+    color: tomato;
+    line-height: 15px;
+    margin-top: -33px;
+    margin-bottom: 50px;
+}
+
+.input-button {
+    color: white;
+    background-image: linear-gradient(to left, #E12637, #FF5032);
+    padding: 10px 38px;
+    border-radius: 100px;
+}
+
+.email {
+    padding: 10px 99px 8px 10px;
+    margin: 15px 30px 15px 30px;
+    border: 1px solid #FF5032;
+}
+
+
+/*Subsvription Section style End*/
 /*Footer Style Start*/
-.footer-section{
+.footer-section {
     background: black;
     padding: 50px;
-    
+
 }
-.orange-color{
-   color:#FC8043
+
+.orange-color {
+    color: #FC8043
 }
+
 .footer-h3 {
     text-align: center;
     color: gray;
@@ -164,9 +256,10 @@ h2 {
     margin-top: -10px;
     font-weight: 600;
 
-  }
-  .footer-p{
-      text-align: center;
-      color: white;
-      font-size: 15px;
-  }
+}
+
+.footer-p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
