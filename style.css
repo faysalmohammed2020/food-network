@@ -88,7 +88,7 @@ h2 {
 /*About Section Style Complete*/
 /*My recipe Section Style*/
 .my-recipies{
-    margin-bottom: 150px;
+    margin-bottom: 0px;
 }
 #my-recipies-h2{
     color: gray;
@@ -100,6 +100,32 @@ h2 {
     text-align: center;
     font-size: 15px;
     line-height: 5px;
+}
+.my-recipies-card{
+    display: flex;
+    margin-bottom: 150px;
+}
+.card-width{
+    width: 30%;
+    box-shadow: 20px 20px 60px rgba(128, 128, 128, 0.986);
+    margin: 75px;
+    padding: 30px;
+    border-radius: 40px;
+}
+.card-width:hover{
+    width: 30%;
+    box-shadow: 20px 20px 60px rgba(245, 149, 5, 0.986);
+    margin: 75px;
+    padding: 30px;
+}
+.card-width img{
+   width: 100%;
+}
+.my-recipie-card-h2{
+    font-size: 40px;
+}
+.my-recipie-card-p{
+    font-size: 12px;
 }
 /*My Recipe Section Complete*/
 /*Count section style*/
