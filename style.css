@@ -61,6 +61,8 @@ h1 {
     background-image: url(images/7.png);
     margin-bottom: 150px;
     padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .right-section {
